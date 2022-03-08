@@ -3,12 +3,12 @@
 *Assign-01-HTML-CSS-JS
 */
 
-h2 {
-  color: White
-  padding: 40px;
-  text-align: left;
+body {
+  color: white;
 }
 
-p {
-  background-color: #fa0000
+h2 {
+  color: MediumSeaGreen
+  padding: 40px;
+  text-align: center;
 }
