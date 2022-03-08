@@ -1,11 +1,14 @@
 /* Created by: Rory Mackay
 * Created on: Feb 2022
-*ICS2O-Unit1-04-HTML-CSS
+*Assign-01-HTML-CSS-JS
 */
 
+h2 {
+  color: White
+  padding: 40px;
+  text-align: left;
 }
 
-h3 {
-  padding: 40px;
-  text-align: center;
+p {
+  background-color: #fa0000
 }
