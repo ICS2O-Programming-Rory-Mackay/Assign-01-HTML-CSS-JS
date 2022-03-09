@@ -8,7 +8,16 @@ body {
 }
 
 h2 {
-  color: MediumSeaGreen
   padding: 40px;
   text-align: center;
+}
+
+p.thick{
+  font-weight: bold;
+  text-align: center;
+}
+
+p::selection {
+  background: #000000;
+  color: #ff2600;
 }
