@@ -1,0 +1,50 @@
+/* Created by: Rory Mackay
+* Created on: Feb 2022
+*Assign-01-HTML-CSS-JS
+*/
+
+body {
+  color: white;
+  background-color: #ffa970;
+}
+
+h2 {
+  padding: 40px;
+  text-align: center;
+  color: #ffe7d1;
+}
+
+p.thick{
+  font-weight: bold;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+  font-size: 22px;
+}
+
+p::selection {
+  background: #000000;
+  color: #ff2600;
+}
+
+.image1 {
+  padding: 10px;
+  float: left;
+  max-width: 3%;
+  max-height: 3%;
+}
+
+.image2 {
+  padding: 10px;
+  float: right;
+  max-width: 3%;
+  max-height: 3%;
+}
+
+.image3{
+  padding: 30px;
+  max-width: 45%;
+  max-height: 45%;
+  border-radius: 50%;
+}
