@@ -17,12 +17,19 @@
    
     <!-- To Use Googles MDL -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-pink.min.css">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-red.min.css">
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <title>Cincinnati Bengals</title>
   </head>
   <body>
-  
+    <!-- Javascipt button function -->
+      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+      function myButtonClicked() {
+        alert("Made you click! Instead, click the links to other pages in the header on the top right, or click the three lines to show a sidebar!")
+      }
+      </script>
+    
     <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
@@ -57,8 +64,27 @@
         <img src="./images/tigerlogo.png" class="image2">
         <br></br>
         <img src="./images/pbstadium.jpg" class="image3" alt="Paul Brown Stadium">
-        <p class="thick">Now that you know a little bit about the Bengals, it's time to explore! Click the links to other pages in the header on the top right, or click the three lines to show a sidebar!</p.thick>
-        </div>
+        <p class="thick">Would you attend a game here?</p.thick>
+        <br></br>
+        <!-- Radio on	Radio off	-->
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+          <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+          <span class="mdl-radio__label">Totally!</span>
+        </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+          <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+          <span class="mdl-radio__label">No, I don't like having fun</span>
+        </label>
+        
+          <!-- text below button -->
+        <p class="thick">Now that you know a little bit about the Bengals, it's time to explore! Click the button below to acess other pages!</p.thick>
+    
+    <!-- Accent-colored raised button with ripple -->
+    <center><button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      Click me!
+    </button></center>
+      <br></br>
+       </div>
       </main>
     </div>
     <style>

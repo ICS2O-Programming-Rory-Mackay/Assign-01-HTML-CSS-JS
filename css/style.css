@@ -7,9 +7,14 @@ body {
   color: white;
 }
 
+{
+ background-image: url('./images/bengalsbackground.png');
+}
+
 h2 {
   padding: 40px;
   text-align: center;
+  color: #ffe7d1;
 }
 
 p.thick{
@@ -17,6 +22,8 @@ p.thick{
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+  font-size: 22px;
 }
 
 p::selection {
