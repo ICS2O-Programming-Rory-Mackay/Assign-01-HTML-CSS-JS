@@ -86,3 +86,14 @@ h4 {
   color: #ffffff;
   padding: 40px;
 }
+
+#button1 {
+<br></br>
+padding: 0px;
+font-weight: bold;
+font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+font-size: 14px;
+margin-left: 0.5%;
+border: 3px solid #752300;
+}
+

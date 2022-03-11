@@ -63,16 +63,15 @@
         <div class="page-content">
           <h4>Page Error. Click reload button to reload.</h4> 
           <!-- MDL Progress Bar with Buffering -->
-<div id="p3" class="mdl-progress mdl-js-progress"></div>
+<div id="p3" class="mdl-progress mdl-js-progress" id="prog1" style="width:1250px"></div>
 <script>
   document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
     this.MaterialProgress.setProgress(33);
     this.MaterialProgress.setBuffer(87);
   }); 
-
         </script>
         <!-- Accent-colored raised button with ripple -->
-        <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+        <button onclick="myButtonClicked()" id="button1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
           Reload
         </button>
           
