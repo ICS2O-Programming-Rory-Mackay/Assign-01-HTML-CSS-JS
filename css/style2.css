@@ -4,14 +4,14 @@
 */
 
 body {
-  color: white;
-  background-color: #ffa970;
+  color: #753500;
+  background-color: #ffd5b3;
 }
 
-h2 {
+h3 {
   padding: 40px;
   text-align: center;
-  color: #ffe7d1;
+  color: #ff4000;
 }
 
 p.thick{
@@ -20,31 +20,36 @@ p.thick{
   padding-left: 15px;
   padding-right: 15px;
   font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
-  font-size: 22px;
+  font-size: 18px;
 }
 
 p::selection {
-  background: #000000;
-  color: #ff2600;
+  background: #753500;
+  color: #ffd5b3;
 }
 
-.image1 {
-  padding: 10px;
-  float: left;
-  max-width: 3%;
-  max-height: 3%;
+.image1{
+  max-width: 15%;
+  max-height: 15%;
+  border: 6px solid #752300;
+  border-radius: 25px;
 }
 
-.image2 {
-  padding: 10px;
-  float: right;
-  max-width: 3%;
-  max-height: 3%;
+.image2{
+  max-width: 14.5%;
+  max-height: 14.5%;
+  border: 6px solid #752300;
+  border-radius: 25px;
 }
 
-.image3{
-  padding: 30px;
-  max-width: 45%;
-  max-height: 45%;
-  border-radius: 50%;
+#video1{
+  max-width: 38%;
+  max-height: 100%;
+  border: 6px solid #752300;
+  border-radius: 25px;
+}
+
+#textfield1{
+  border: 3px solid #752300;
+  border-radius: 8px;
 }
