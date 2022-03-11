@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Assign-01-HTML-CSS-JS -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Bengals Players Page">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Rory Mackay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style3.css">
+    
+    <!-- For the favicon on this page -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_index/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_index/site.webmanifest">
+   
+    <!-- To Use Googles MDL -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-red.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <title>Bengals Best Players</title>
+  </head>
+  <body>
+    <!-- Javascipt button function -->
+      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+      function myButtonClicked() {
+        alert("Click the person icon to start typing! When you're done, click the check to submit!")
+      }
+      </script>
+    
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Cincinnati Bengals</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <!-- MDL header navigation -->
+            <a class="mdl-navigation__link" href="./index.html">Home</a>
+            <a class="mdl-navigation__link" href="index2.html">History</a>
+            <a class="mdl-navigation__link" href="index3.html">Best Players</a>
+          </nav>
+        </div>
+      </header>
+      
+      <!-- MDL sidebar navigation -->
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Pages</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="./index.html">Home</a>
+          <a class="mdl-navigation__link" href="index2.html">History</a>
+          <a class="mdl-navigation__link" href="index3.html">Best Players</a>
+        </nav>
+      </div>
+      
+      <!-- Main website content -->
+      <main class="mdl-layout__content">
+        <div class="page-content">
+        <h3>Best Bengals Players</h3>  
+        <h5>Players of the Past</h3> 
+        <p class="thick">Throughout the Bengals history they have had countless standout players. This includes the likes of Ken Riley, Pro Football Hall of Fame inductee Anthony Munoz (pictured below), the infamous Chad Ochocinco, and many, many more. Considered the best bengal player and best offensive tackle of all time, Anthony Munoz (pictured below) defined a generation of gritty Bengals football. He helped the Bengals reach two superbowls in the 1980's and locked down any poor defensive lineman who lined up in fornt of him.</p.thick>
+        <br></br>
+          <img src="./images/paulbrown.jpg" class="image1" alt="Paul Brown"> <img src="./images/joewinner.jpg" class="image2" alt="Joe Burrow with AFC championship trophy">
+        <p class="thick">Although it is a tough task, my top 3 best Bengals players of all time in order are:</p.thick>
+        <!-- Best players list -->
+        <ol class="list1">
+          <li>Anthony Munoz</li>
+          <li>Ken Riley</li>
+          <li>Chad Ochocinco</li>
+        </ol>
+        <center><iframe width="420" height="315" src="https://www.youtube.com/embed/FXcUPbRmpjY" id="video1">
+</iframe></center>
+        <br></br>
+        <p class="thick">Out of everything you've learned, what stood out to you the most? Write in textfield below.</p.thick>
+          <!-- Expandable Textfield -->
+<center><form action="#">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+    <label class="mdl-button mdl-js-button mdl-button--icon" for="textfield1">
+      <span class="material-icons">face</span>
+    </label>
+    <div class="mdl-textfield__expandable-holder">
+      <input class="mdl-textfield__input" type="text" id="textfield1">
+      <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+        </form></center>
+
+<!-- Colored FAB button with ripple -->
+        <center><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+          <i class="material-icons">check</i>
+        </button></center>
+        <br></br>
+    <!-- Accent-colored raised button with ripple -->
+        <center><button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Stuck?
+        </button></center>
+        <br></br>
+       </div>
+      </main>
+    </div>
+    <style>
+    </style>
+  </body>
+</html>
