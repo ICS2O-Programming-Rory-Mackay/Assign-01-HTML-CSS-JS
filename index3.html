@@ -26,7 +26,7 @@
       <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script>
       function myButtonClicked() {
-        alert("Click the person icon to start typing! When you're done, click the check to submit!")
+        alert("Made you click again!! The page is functionning properly.")
       }
       </script>
     
@@ -61,6 +61,21 @@
       <!-- Main website content -->
       <main class="mdl-layout__content">
         <div class="page-content">
+          <h4>Page Error. Click reload button to reload.</h4> 
+          <!-- MDL Progress Bar with Buffering -->
+<div id="p3" class="mdl-progress mdl-js-progress"></div>
+<script>
+  document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(33);
+    this.MaterialProgress.setBuffer(87);
+  }); 
+
+        </script>
+        <!-- Accent-colored raised button with ripple -->
+        <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Reload
+        </button>
+          
         <h3>Best Bengals Players</h3>  
         <!-- Players of Past -->
         <h5>Players of the Past</h3> 
@@ -81,36 +96,19 @@
         <p class="thick">The glory days of the Bengals may appear to be over, but present day the Bengals have many star players. This includes Joe Burrow the quarterback, Ja'marr Chase the standout wideout, Joe Mixon the stud runningback and countless others. Burrow (pictured below, left) is the teams signal caller that lead them to a superbowl in only his second year. Ja'marr Chase (pictured below, middle) is the teams best wide reciever. His 2021 rookie season broke nearly every record there is for rookie wideouts. Joe Mixon (pictured below, right) is a top 5 running back in the NFL. Last season he eclipsed the 1000 yeard rushing mark for the second time in his yound career.</p.thick>
         <br></br>
         <img src="./images/joeburrowcard.jpg" class="image1" alt="Joe Burrow"> <img src="./images/chasecard.jpg" class="image2" alt="Joe Mixon"> <img src="./images/joemixoncard.jpg" class="image3" alt="Chad Ochocinco">
-        <p class="thick">Although it is a tough task, my top 3 best Bengals players of all time in order are:</p.thick>
+        <p class="thick">The current team has so many awesome players. If I had to rank them my top 3 would be:</p.thick>
         <!-- Best players list -->
         <ol class="list1">
-          <li>Anthony Munoz</li>
-          <li>Ken Riley</li>
-          <li>Chad Ochocinco</li>
+          <li>Joe Burrow</li>
+          <li>Ja'Marr Chase</li>
+          <li>Joe Mixon</li>
         </ol>
         <br></br>
-        <p class="thick">Out of everything you've learned, what stood out to you the most? Write in textfield below.</p.thick>
-          
-        <!-- Expandable Textfield -->
-<center><form action="#">
-  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-    <label class="mdl-button mdl-js-button mdl-button--icon" for="textfield1">
-      <span class="material-icons">face</span>
-    </label>
-    <div class="mdl-textfield__expandable-holder">
-      <input class="mdl-textfield__input" type="text" id="textfield1">
-      <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
-        </form></center>
-
-<!-- Colored FAB button with ripple -->
-        <center><button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-          <i class="material-icons">check</i>
-        </button></center>
-        <br></br>
-    <!-- Accent-colored raised button with ripple -->
-        <center><button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-          Stuck?
-        </button></center>
+        <p class="thick">Do you agree with my rankings? If so, check the box!</p.thick>
+        <!-- Switch -->
+          <center><input type="checkbox" id="switch-2" class="mdl-switch__input" checked></center>
+          <center><span class="mdl-switch__label"></span></center>
+        </label></center>
         <br></br>
        </div>
       </main>

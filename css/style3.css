@@ -74,3 +74,15 @@ font-size: 18px;
 text-align: left;
 margin-left: 45%;
 }
+
+#checkbox1{
+  border: 3px solid #752300;
+  border-radius: 8px;
+}
+
+h4 {
+  padding-left: 15px;
+  text-align: left;
+  color: #ffffff;
+  padding: 40px;
+}
