@@ -42,8 +42,15 @@ p::selection {
 }
 
 .image2{
-  max-width: 14.5%;
-  max-height: 14.5%;
+  max-width: 15%;
+  max-height: 15%;
+  border: 6px solid #752300;
+  border-radius: 25px;
+}
+
+.image3{
+  max-width: 15%;
+  max-height: 15%;
   border: 6px solid #752300;
   border-radius: 25px;
 }
